@@ -1,0 +1,46 @@
+.alineacionbody {
+  margin: auto;
+}
+.alineacion {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Agregando espacio entre los elementos */
+}
+
+.fila-grande {
+  height: 100px; /* Ajusta este valor según el tamaño deseado */
+}
+
+
+.areainput {
+  margin: 30px; /* Aumentando el margen para mayor separación */
+  text-align: center;
+}
+
+.tablafirmas {
+  justify-content: center;
+  display: flex;
+  margin-top: 40px; /* Aumentando el espacio superior */
+}
+
+.btn-primary {
+  margin-top: 40px; /* Aumentando el espacio superior */
+  margin-left: auto; /* Centrando el botón horizontalmente */
+  margin-right: auto; /* Centrando el botón horizontalmente */
+  margin-left: 100vh;
+}
+
+.mi-tabla {
+  border-collapse: collapse;
+  width: 300px; /* Haciendo que la tabla sea más grande */
+  margin: 20px; /* Aumentando el espacio entre las tablas */
+}
+
+.mi-tabla td {
+  border: 1px solid black;
+  padding: 20px; /* Aumentando el espacio interno de las celdas */
+  text-align: center;
+}
+
